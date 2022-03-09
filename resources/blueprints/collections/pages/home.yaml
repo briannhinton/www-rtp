@@ -6,17 +6,14 @@ sections:
       -
         handle: title
         field:
-          character_limit: 0
           type: text
-          localizable: false
+          required: true
+          character_limit: 0
           display: Title
-      -
-        handle: subtitle
-        field:
-          character_limit: 0
-          type: text
-          localizable: false
-          display: Subtitle
+          instructions_position: above
+          listable: hidden
+          input_type: text
+          antlers: false
       -
         handle: content
         field:
@@ -26,11 +23,26 @@ sections:
           escape_markup: true
           smartypants: false
           type: markdown
-          localizable: false
           display: Content
       -
         handle: template
         field:
           type: template
-          localizable: false
           display: Template
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
