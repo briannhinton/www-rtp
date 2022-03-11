@@ -1,10 +1,11 @@
-<div class="max-w-5xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
-    <article class="content">
-        <h1>{{ content }}</h1>
-    </article>
+<div class="max-w-3xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
+    {{ partial:office }}
+    <div class="text-4xl font-extrabold">
+        {{ content }}
+    </div>
 </div>
 
-<div class="max-w-2xl mx-auto mb-32">
+<div class="max-w-3xl mx-auto mb-32">
     {{ collection:articles limit="5" as="articles" }}
         {{ if no_results }}
             <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool writings!</h2>
@@ -17,7 +18,7 @@
                         {{ title | widont }}
                     </a>
                 </h2>
-                <p class="text-gray-600">
+                <p class="text-gray-600 max-w-xl">
                     <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
                     {{ excerpt ? excerpt | widont : content | strip_tags | safe_truncate:160:...}}
                 </p>

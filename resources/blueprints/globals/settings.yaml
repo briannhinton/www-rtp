@@ -8,8 +8,17 @@ sections:
         field:
           character_limit: 0
           type: text
-          localizable: false
           display: 'Site Name'
+      -
+        handle: author
+        field:
+          input_type: text
+          antlers: false
+          display: Author
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
       -
         handle: social
         field:
@@ -44,5 +53,4 @@ sections:
           reorderable: true
           type: grid
           instructions: 'Set any social media links'
-          localizable: false
           display: Social

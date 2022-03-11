@@ -1,6 +1,7 @@
 title: Settings
 data:
   site_name: 'A Digital Home'
+  author: 'Brian Hinton'
   social:
     -
       name: Twitter
