@@ -1,8 +1,8 @@
 <div class="max-w-3xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
     {{ partial:office }}
-    <div class="text-4xl font-extrabold">
+    <h1>
         {{ content }}
-    </div>
+    </h1>
 </div>
 
 <div class="max-w-3xl mx-auto mb-32">
@@ -12,17 +12,17 @@
         {{ /if }}
 
         {{ articles }}
-            <div class="mb-16">
+            <article class="mb-16">
                 <h2 class="mb-4">
                     <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
                         {{ title | widont }}
                     </a>
                 </h2>
                 <p class="text-gray-600 max-w-xl">
-                    <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
+                    <time datetime="{{ date iso_format="YYYY-MM-DD" }}" class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</time> &mdash;
                     {{ excerpt ? excerpt | widont : content | strip_tags | safe_truncate:160:...}}
                 </p>
-            </div>
+            </article>
         {{ /articles }}
     {{ /collection:articles }}
 </div>

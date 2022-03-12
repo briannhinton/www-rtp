@@ -1,5 +1,5 @@
-<div class="max-w-3xl mx-auto relative mt-16">
-    <article class="py-32 mx-auto">
+<main class="max-w-3xl mx-auto relative mt-16">
+    <div class="py-32 mx-auto">
         <header class="content mb-16">
             <h1>{{ title }}</h1>
             {{ content | widont }}
@@ -7,16 +7,15 @@
 
         {{ collection:articles as="articles" paginate="10" }}
         {{ if no_results }}
-        <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool
-            writings!</h2>
+        <h2 class="text-3xl italic tracking-tight">Nothing to see here.</h2>
         {{ /if }}
 
         {{ articles }}
-        <div class="mb-2">
+        <h2 class="mb-2">
             <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
                 {{ title | widont }}
             </a>
-        </div>
+        </h2>
         {{ /articles }}
 
         {{ paginate }}
@@ -32,5 +31,5 @@
         {{ /if }}
         {{ /paginate }}
         {{ /collection:articles }}
-    </article>
-</div>
+    </div>
+</main>
