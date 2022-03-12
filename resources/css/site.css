@@ -31,7 +31,7 @@ h1 {
     }
 
     > blockquote {
-        @apply text-center font-black italic px-4 mb-12 pt-6 text-3xl leading-tight;
+        @apply text-center font-black italic px-4 mb-11 py-6 text-3xl leading-tight bg-slate-100;
     }
 
     > blockquote > p {

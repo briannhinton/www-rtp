@@ -1,18 +1,18 @@
-<div class="max-w-3xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
+<div class="max-w-3xl mx-auto relative pt-24">
     {{ partial:office }}
     <h1>
-        {{ content }}
+        {{ content | raw }}
     </h1>
 </div>
 
 <div class="max-w-3xl mx-auto mb-32">
     {{ collection:articles limit="5" as="articles" }}
         {{ if no_results }}
-            <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool writings!</h2>
+            <h2 class="text-3xl italic tracking-tight">Nothing here.</h2>
         {{ /if }}
 
         {{ articles }}
-            <article class="mb-16">
+            <article class="mb-12">
                 <h2 class="mb-4">
                     <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
                         {{ title | widont }}
