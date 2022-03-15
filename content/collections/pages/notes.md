@@ -4,6 +4,6 @@ blueprint: home
 title: Notes
 template: notes/index
 updated_by: 04feaada-4c4c-4bd2-aa46-cf820d4b9266
-updated_at: 1647101065
+updated_at: 1647378461
 ---
-These are my various writings. Some might say they are cool.
+These are my various writings.

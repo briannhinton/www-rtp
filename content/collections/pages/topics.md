@@ -1,7 +1,9 @@
 ---
+id: f5a53468-017e-4725-b5b6-a745df7e94cb
+blueprint: home
 title: Topics
 template: topics/index
-updated_by: ea0c21bd-9703-4bb1-9fed-58ec0e129dd7
-updated_at: 1579534416
-id: f5a53468-017e-4725-b5b6-a745df7e94cb
+updated_by: 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_at: 1647378418
 ---
+Explore by a specific topic.
