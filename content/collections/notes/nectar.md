@@ -1,9 +1,15 @@
 ---
+id: 8e4b4e60-5dfb-47b0-a2d7-a904d64aeb80
+blueprint: note
 title: 'Nectar of the Gods'
 topics:
   - soda
+  - sneakers
 excerpt: 'The time had come. We had seen the commercials. This was our first foray into the underground competitive world of Surge.'
-id: 8e4b4e60-5dfb-47b0-a2d7-a904d64aeb80
+author:
+  - 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_by: 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_at: 1647305357
 ---
 The day started just like any other. Wake up at 5:30am, brush my teeth, bathe in a tub of warm milk, and trim my toenails while quietly resenting the fact that _Flipper_ was on Nickelodeon at this hour instead of _Rocko's Modern Life_. That would have to wait until 5:30*pm* for that, and I am impatient.
 

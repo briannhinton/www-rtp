@@ -5,18 +5,18 @@
             {{ content | widont }}
         </header>
 
-        {{ collection:articles as="articles" paginate="10" }}
+        {{ collection:notes as="notes" paginate="10" }}
         {{ if no_results }}
         <h2 class="text-3xl italic tracking-tight">Nothing to see here.</h2>
         {{ /if }}
 
-        {{ articles }}
+        {{ notes }}
         <h2 class="mb-2">
             <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
                 {{ title | widont }}
             </a>
         </h2>
-        {{ /articles }}
+        {{ /notes }}
 
         {{ paginate }}
         {{ if prev_page || next_page }}
@@ -30,6 +30,6 @@
         </div>
         {{ /if }}
         {{ /paginate }}
-        {{ /collection:articles }}
+        {{ /collection:notes }}
     </div>
 </main>

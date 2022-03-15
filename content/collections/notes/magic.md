@@ -1,9 +1,14 @@
 ---
+id: af43e0fb-a338-4433-b60a-3bed773be341
+blueprint: note
 title: 'The Magic Happens at 7 1/2 Pumps'
 topics:
   - sneakers
 excerpt: 'It took me 2 years, 1 month, and 21 days to save up for a pair of Reebok Pumps. When I finally got them, they didn''t work as advertised. Or did they?'
-id: af43e0fb-a338-4433-b60a-3bed773be341
+author:
+  - 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_by: 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_at: 1647305360
 ---
 Ever since the day Dee Brown pumped up his Reeboks and went on to win the 1991 NBA Slam Dunk Contest, I had been saving to buy a pair.
 

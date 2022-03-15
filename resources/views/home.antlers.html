@@ -6,12 +6,13 @@
 </div>
 
 <div class="max-w-3xl mx-auto mb-32">
-    {{ collection:articles limit="5" as="articles" }}
+    <h2>Latest Notes</h2>
+    {{ collection:notes limit="5" as="notes" }}
         {{ if no_results }}
             <h2 class="text-3xl italic tracking-tight">Nothing here.</h2>
         {{ /if }}
 
-        {{ articles }}
+        {{ notes }}
             <article class="mb-12">
                 <h2 class="mb-4">
                     <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
@@ -23,6 +24,6 @@
                     {{ excerpt ? excerpt | widont : content | strip_tags | safe_truncate:160:...}}
                 </p>
             </article>
-        {{ /articles }}
-    {{ /collection:articles }}
+        {{ /notes }}
+    {{ /collection:notes }}
 </div>

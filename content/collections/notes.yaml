@@ -1,11 +1,12 @@
-title: Articles
-route: '{slug}'
-template: articles.show
+title: Notes
+template: notes/show
+layout: layout
 mount: b9e4bfe3-9c12-4553-b7ef-f43c22ffaa63
 taxonomies:
   - topics
 revisions: false
-date: true
+route: '{slug}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private

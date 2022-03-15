@@ -1,9 +1,14 @@
 ---
+id: f9e43415-a568-428b-9f41-6ebb2cf1e62c
+blueprint: note
 title: '''Dance Like No One is Watching'' Is Bad Advice'
+excerpt: 'The Macarena is an international hit & dance craze. The song is inspired by flamenco dancer Diana Herrera''s beauty, but do you know where the dance came from?'
+author:
+  - 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_by: 04feaada-4c4c-4bd2-aa46-cf820d4b9266
+updated_at: 1647305363
 topics:
   - dance
-excerpt: 'The Macarena is an international hit & dance craze. The song is inspired by flamenco dancer Diana Herrera''s beauty, but do you know where the dance came from?'
-id: 7ac0bdda-1b84-45f8-ac52-2575dd7e8251
 ---
 The Macarena by Los Del Rio (Remixed by the Bayside Boys) has been #1 on the charts for 14 weeks in a row.
 
