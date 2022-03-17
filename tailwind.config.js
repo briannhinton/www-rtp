@@ -6,16 +6,9 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            sans: ['Inter', 'sans'],
+            sans: ['Readex Pro', 'sans'],
             mono: ['Menlo', 'monospace']
-        },
-        extend: {
-            colors: {
-                'teal': '#008483',
-                'teal-light': '#a6d0cf'
-            }
         }
     },
-    plugins: [],
-    important: true
+    plugins: []
 }

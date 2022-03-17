@@ -1,10 +1,10 @@
 <nav class="flex items-center justify-between flex-wrap py-10 max-w-3xl mx-auto">
-    <div class="text-md antialiased font-medium">
-        <a href="/" class="block text-xl lg:inline-block mr-12 font-light">{{ settings:site_name }}</a>
+    <div class="antialiased">
+        <a href="/" class="text-cyan-700 block lg:inline-block mr-12 uppercase text-base">{{ settings:site_name }}</a>
     </div>
     <div class="w-full lg:w-auto lg:flex items-center">
         {{ nav }}
-        <a href="{{ url }}" class="block {{ is_current || is_parent ?= 'font-medium text-gray-800' }} mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+        <a href="{{ url }}" class="block mt-4 lg:inline-block text-cyan-700 border-b-2 border-cyan-700 border-opacity-0 hover:text-cyan-900 hover:border-b-2 hover:border-cyan-900 lg:mt-0 mr-12 {{ is_current || is_parent ?= 'font-bold text-cyan-900 border-b-2 border-cyan-900 border-opacity-100' }}">
             {{ title }}
         </a>
         {{ /nav }}
