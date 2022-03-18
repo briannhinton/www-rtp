@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea78abc9fdeabc4fc680741c550af924",
+    "content-hash": "4d05766f25380e3e9f7788c96c374e43",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -263,16 +263,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.8",
+            "version": "2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "26a587345daa2772bbe2006f13cd9d7f92b242eb"
+                "reference": "07eccf080ad63d55d95a7c9133506db7d9029264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/26a587345daa2772bbe2006f13cd9d7f92b242eb",
-                "reference": "26a587345daa2772bbe2006f13cd9d7f92b242eb",
+                "url": "https://api.github.com/repos/composer/composer/zipball/07eccf080ad63d55d95a7c9133506db7d9029264",
+                "reference": "07eccf080ad63d55d95a7c9133506db7d9029264",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.8"
+                "source": "https://github.com/composer/composer/tree/2.2.9"
             },
             "funding": [
                 {
@@ -358,7 +358,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-15T11:55:20+00:00"
+            "time": "2022-03-15T21:13:37+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -502,16 +502,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "f79c90ad4e9b41ac4dfc5d77bf398cf61fbd718b"
+                "reference": "5d8e574bb0e69188786b8ef77d43341222a41a71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/f79c90ad4e9b41ac4dfc5d77bf398cf61fbd718b",
-                "reference": "f79c90ad4e9b41ac4dfc5d77bf398cf61fbd718b",
+                "url": "https://api.github.com/repos/composer/semver/zipball/5d8e574bb0e69188786b8ef77d43341222a41a71",
+                "reference": "5d8e574bb0e69188786b8ef77d43341222a41a71",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.3.0"
+                "source": "https://github.com/composer/semver/tree/3.3.1"
             },
             "funding": [
                 {
@@ -579,7 +579,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-15T08:35:57+00:00"
+            "time": "2022-03-16T11:22:07+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -4383,16 +4383,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "e73f68cf74dd2c76723f23520d474fc4b73fa634"
+                "reference": "e17b499e30219dd1582f1c3c8b3140e6dd531dff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/e73f68cf74dd2c76723f23520d474fc4b73fa634",
-                "reference": "e73f68cf74dd2c76723f23520d474fc4b73fa634",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/e17b499e30219dd1582f1c3c8b3140e6dd531dff",
+                "reference": "e17b499e30219dd1582f1c3c8b3140e6dd531dff",
                 "shasum": ""
             },
             "require": {
@@ -4470,7 +4470,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.0"
+                "source": "https://github.com/statamic/cms/tree/v3.3.1"
             },
             "funding": [
                 {
@@ -4478,7 +4478,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-15T15:32:30+00:00"
+            "time": "2022-03-16T17:18:33+00:00"
         },
         {
             "name": "statamic/stringy",
