@@ -1,7 +1,7 @@
-title: Bookmarks
-template: bookmarks/show
+title: Books
+template: books/show
 layout: layout
-mount: 1d412bb5-be65-40de-8011-71e1061d85f1
+mount: e22a4dc6-5551-4b10-84bf-488903ee20f2
 revisions: false
 route: '{slug}'
 sort_dir: asc

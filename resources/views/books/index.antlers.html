@@ -1,0 +1,23 @@
+<main class="max-w-3xl mx-auto relative mt-16">
+    <div class="mx-auto">
+        <header class="content mb-16">
+            <h1>{{ title }}</h1>
+            {{ content | widont }}
+        </header>
+
+        {{ collection:books as="books" paginate="10" }}
+        {{ if no_results }}
+        <h2 class="text-3xl italic tracking-tight">Nothing to see here.</h2>
+        {{ /if }}
+
+        {{ books }}
+        <h2 class="mb-2">
+            <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
+                {{ title | widont }}
+            </a>
+        </h2>
+        {{ /books }}
+
+        {{ /collection:books }}
+    </div>
+</main>
