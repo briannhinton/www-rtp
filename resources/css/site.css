@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;700&display=swap');
 
 body {
-    @apply text-gray-800;
+    @apply text-cyan-900
 }
 
 h1 {
     @apply text-4xl font-bold leading-none mb-8;
+}
+
+h1, h2, h3 {
+    @apply text-cyan-900
 }
 
 .content {

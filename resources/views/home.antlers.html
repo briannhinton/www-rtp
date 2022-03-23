@@ -1,6 +1,6 @@
 <div class="max-w-4xl mx-auto relative pt-16 mb-20">
     {{ partial:office }}
-    <h1 class="text-[40px] leading-[44.5px] text-cyan-900 max-w-2xl">
+    <h1 class="text-[40px] leading-[44.5px] max-w-2xl">
         {{ content | raw }}
     </h1>
     <button class="bg-cyan-100 text-cyan-800 py-2 px-4 rounded-xl">More Info <svg class="fill-cyan-800 inline-block" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
                         {{ title | widont }}
                     </a>
                 </h2>
-                <p class="text-gray-600 max-w-xl">
+                <p class="max-w-xl">
                     <time datetime="{{ date iso_format="YYYY-MM-DD" }}" class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</time> &mdash;
                     {{ excerpt ? excerpt | widont : content | strip_tags | safe_truncate:160:...}}
                 </p>
@@ -32,6 +32,7 @@
         {{ /notes }}
     {{ /collection:notes }}
     </div>
+    <!-- TODO: Full width recent topic? -->
     <div class="w-2/5">
         {{ collection:notes limit="2" as="notes" }}
             {{ if no_results }}
