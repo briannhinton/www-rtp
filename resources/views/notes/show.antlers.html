@@ -1,13 +1,14 @@
-<div class="max-w-3xl mx-auto relative mt-16 content">
+<div class="max-w-4xl mx-auto relative mt-16 content">
     <article class="max-w-2xl lg:pb-32">
-        <div class="bg-gray-800 inline-block text-sm mb-16 px-4 uppercase tracking-widest text-white py-1 rounded-r-full">
-            Published
+        <p class="text-sm font-light mb-2 tracking-widest">
+            {{ date format="j M, Y" }}
+        </p>
+        <h1>{{ title }}</h1>
+        <p class="mb-8">Published
             {{ if topics }}
                 in {{ topics }}<a href="{{ url }}" class="text-teal-light no-underline hover:text-white">{{ title }}</a>{{ unless last }}, {{ /unless }}{{ /topics }}
             {{ /if }}
-            on {{ date format="M j, Y" }}
-        </div>
-        <h1>{{ title }}</h1>
+        </p>
         <div class="content">
             {{ content | widont }}
         </div>
